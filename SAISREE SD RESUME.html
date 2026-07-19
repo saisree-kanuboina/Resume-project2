@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Saisree Kanuboina - Resume</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #eeeeee;
+        color: #222;
+        line-height: 1.4;
+      }
+
+      .resume {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 20px auto;
+        background-color: white;
+        padding: 25px 35px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+      }
+
+      /* Header */
+      .header {
+        text-align: center;
+        border-bottom: 2px solid #222;
+        padding-bottom: 12px;
+        margin-bottom: 15px;
+      }
+
+      .header h1 {
+        font-size: 27px;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+      }
+
+      .contact {
+        font-size: 11.5px;
+        color: #444;
+      }
+
+      .contact a {
+        color: #222;
+        text-decoration: none;
+      }
+
+      /* Sections */
+      .section {
+        margin-bottom: 13px;
+      }
+
+      .section h2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #555;
+        padding-bottom: 3px;
+        margin-bottom: 7px;
+        letter-spacing: 1px;
+      }
+
+      .section p {
+        font-size: 11.5px;
+        text-align: justify;
+      }
+
+      /* Education and Experience */
+      .item {
+        margin-bottom: 8px;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 15px;
+      }
+
+      .item-header h3 {
+        font-size: 12.5px;
+        font-weight: bold;
+      }
+
+      .date {
+        font-size: 11.5px;
+        font-weight: bold;
+        white-space: nowrap;
+        text-align: right;
+      }
+
+      .sub-details {
+        font-size: 11.5px;
+        color: #444;
+        font-weight: normal;
+      }
+
+      /* Skills */
+      .skills p {
+        margin-bottom: 3px;
+      }
+
+      /* Lists */
+      ul {
+        margin-left: 17px;
+        font-size: 11.5px;
+      }
+
+      li {
+        margin-bottom: 2px;
+      }
+
+      /* Projects */
+      .project-item {
+        margin-bottom: 7px;
+      }
+
+      .project-item a {
+        color: #222;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .project-item a:hover {
+        text-decoration: underline;
+      }
+
+      /* Print Settings */
+      @media print {
+        @page {
+          size: A4;
+          margin: 0;
+        }
+
+        body {
+          background-color: white;
+        }
+
+        .resume {
+          width: 210mm;
+          min-height: 297mm;
+          margin: 0;
+          padding: 20mm 18mm;
+          box-shadow: none;
+        }
+      }
+
+      /* Mobile */
+      @media screen and (max-width: 600px) {
+        .resume {
+          width: 100%;
+          min-height: auto;
+          margin: 0;
+          padding: 20px;
+        }
+
+        .item-header {
+          flex-direction: column;
+          gap: 2px;
+        }
+
+        .date {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="resume">
+      <!-- HEADER -->
+      <header class="header">
+        <h1>SAISREE KANUBOINA</h1>
+
+        <div class="contact">
+          +91 9573928149 |
+          <a href="mailto:saisrikanuboina111@gmail.com">
+            saisrikanuboina111@gmail.com
+          </a>
+          | Andhra Pradesh |
+          <a
+            href="https://www.linkedin.com/in/saisree-kanuboina-bb30373a9/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a href="https://github.com/saisree-kanuboina" target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </header>
+
+      <!-- PROFESSIONAL SUMMARY -->
+      <section class="section">
+        <h2>Professional Summary</h2>
+
+        <p>
+          BCA student with hands-on experience in Software Development and
+          Front-End Development. Skilled in Python, JavaScript, HTML, CSS,
+          responsive web design, and user interface development. Familiar with
+          problem-solving, programming concepts, and developing user-focused
+          applications. Strong interest in software development and emerging
+          technologies, with a willingness to learn and adapt to new tools and
+          technologies.
+        </p>
+      </section>
+
+      <!-- TECHNICAL SKILLS -->
+      <section class="section skills">
+        <h2>Technical Skills</h2>
+
+        <p><strong>Programming Languages:</strong> Python, JavaScript</p>
+
+        <p><strong>Web Technologies:</strong> HTML, CSS</p>
+
+        <p>
+          <strong>Frontend Skills:</strong>
+          Responsive Web Design, User Interface Design
+        </p>
+
+        <p>
+          <strong>Software Development:</strong>
+          Problem Solving, Object-Oriented Programming, Programming Fundamentals
+        </p>
+
+        <p>
+          <strong>Tools:</strong>
+          VS Code, Canva, MS Word, MS Excel, MS PowerPoint
+        </p>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section">
+        <h2>Education</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <span class="date">2024 – 2027</span>
+          </div>
+
+          <div class="sub-details">B V Raju College, Bhimavaram | 87%</div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Intermediate – MPC</h3>
+            <span class="date">2022 – 2024</span>
+          </div>
+
+          <div class="sub-details">Sri Chaitanya Junior College | 77%</div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>SSC</h3>
+            <span class="date">2021 – 2022</span>
+          </div>
+
+          <div class="sub-details">Z.P.H School | 70%</div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section">
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Resume Website | HTML, CSS</h3>
+          </div>
+
+          <div class="sub-details">
+            GitHub Repository:
+            <a
+              href="https://github.com/saisree-kanuboina/Resume-project1"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Event Ticket Booking System | HTML, CSS, JavaScript</h3>
+          </div>
+
+          <div class="sub-details">
+            GitHub Repository:
+            <a
+              href="https://github.com/saisree-kanuboina/event-booking-system-project"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section">
+        <h2>Experience</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Front-End Development Intern | Sysslan IT Solutions</h3>
+            <span class="date">May 2026 – June 2026</span>
+          </div>
+
+          <ul>
+            <li>
+              Worked on responsive web development and user interface design.
+            </li>
+
+            <li>
+              Contributed to website optimization and user experience
+              enhancement.
+            </li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <h3>Content Writer | VishnuSpire</h3>
+            <span class="date">2025 – Present</span>
+          </div>
+
+          <ul>
+            <li>
+              Created engaging content for digital platforms and social media.
+            </li>
+
+            <li>Assisted with content planning and audience engagement.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="section">
+        <h2>Certifications</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="sub-details">
+              Deloitte Technology Job Simulation – Coding & Development
+            </span>
+
+            <span class="date">2026</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="sub-details">
+              Risk Job Simulation – Client Profile & Investment Analysis
+            </span>
+
+            <span class="date">2026</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
